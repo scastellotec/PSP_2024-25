@@ -1,4 +1,4 @@
-package ud2_threads.example0;
+package example0;
 
 public class threds0 {
     public static void main(String[] args) {

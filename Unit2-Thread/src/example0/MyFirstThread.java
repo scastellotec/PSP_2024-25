@@ -1,4 +1,4 @@
-package ud2_threads.example0;
+package example0;
 
 public class MyFirstThread implements Runnable{
     @Override

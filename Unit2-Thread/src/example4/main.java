@@ -1,9 +1,9 @@
-package ud2_threads.example4;
+package example4;
 
 public class main {
     public static void main(String[] args) throws InterruptedException {
         // Define and start the thread
-        Thread t1 = new Thread(new Countdown());
+        Thread t1 = new Thread(new ud2_threads.example4.Countdown());
         t1.start();
         // Wait for 3 seconds
         Thread.sleep(3000);

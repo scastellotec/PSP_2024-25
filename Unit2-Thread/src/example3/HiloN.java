@@ -1,4 +1,4 @@
-package ud2_threads.example3;
+package example3;
 
 public class HiloN implements Runnable{
 

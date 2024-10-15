@@ -1,4 +1,4 @@
-package ud2_threads.example1;
+package example1;
 
 public class mainexaple1 {
     public static void main(String[] args) throws InterruptedException {

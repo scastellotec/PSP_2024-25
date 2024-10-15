@@ -1,4 +1,4 @@
-package ud2_threads.example1;
+package example1;
 
 public class Hilo2 implements Runnable{
     @Override
