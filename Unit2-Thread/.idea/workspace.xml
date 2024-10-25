@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/example5_graphicStarvation/example5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise3/operationRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example6_producerConsumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example6_producerConsumer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example6_producerConsumer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example6_producerConsumer/SharedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise4/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise4/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +41,10 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.example5.executor": "Run",
+    "Application.example6_producerConsumer.Main.executor": "Run",
     "Application.exercise2.Main.executor": "Run",
     "Application.exercise3.Main.executor": "Run",
+    "Application.exercise4.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -51,13 +57,13 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.example5">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise1.Main" />
+  <component name="RunManager" selected="Application.example6_producerConsumer.Main">
+    <configuration name="example5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example5_graphicStarvation.example5" />
       <module name="Unit2-Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise1.*" />
+          <option name="PATTERN" value="example5_graphicStarvation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example5_graphicStarvation.example5" />
+    <configuration name="example6_producerConsumer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example6_producerConsumer.Main" />
       <module name="Unit2-Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example5_graphicStarvation.*" />
+          <option name="PATTERN" value="example6_producerConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercise4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise4.Main" />
+      <module name="Unit2-Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.example6_producerConsumer.Main" />
+        <item itemvalue="Application.exercise4.Main" />
         <item itemvalue="Application.example5" />
         <item itemvalue="Application.exercise3.Main" />
         <item itemvalue="Application.exercise2.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
