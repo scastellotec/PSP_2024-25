@@ -13,9 +13,9 @@ public class Car extends Thread{
     @Override
     public void run() {
         try {
-            p.enterParking();
+            p.enterParking(name);
             Thread.sleep(3000);
-            p.leaveParking();
+            p.leaveParking(name);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

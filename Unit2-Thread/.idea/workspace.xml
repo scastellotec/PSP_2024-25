@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercise5_parking/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise5_parking/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise5_parking/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise6_warehouseTable/ConsumerManufacturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise6_warehouseTable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise6_warehouseTable/ProducerLegs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise6_warehouseTable/ProducerTabletop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise6_warehouseTable/Warehouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise5_parking/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise5_parking/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise5_parking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise5_parking/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise5_parking/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise5_parking/Parking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.example6_producerConsumer.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise5_parking.Main" />
+      <module name="Unit2-Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise5_parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="example5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example5_graphicStarvation.example5" />
       <module name="Unit2-Thread" />
@@ -73,19 +91,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="example6_producerConsumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercise2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise2.Main" />
-      <module name="Unit2-Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.example6_producerConsumer.Main" />
         <item itemvalue="Application.exercise4.Main" />
         <item itemvalue="Application.example5" />
         <item itemvalue="Application.exercise3.Main" />
-        <item itemvalue="Application.exercise2.Main" />
       </list>
     </recent_temporary>
   </component>
