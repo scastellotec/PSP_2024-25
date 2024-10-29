@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/example6_producerConsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example6_producerConsumer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example6_producerConsumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example6_producerConsumer/SharedObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise4/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise4/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise5_parking/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise5_parking/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise5_parking/Parking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.example5.executor": "Run",
-    "Application.example6_producerConsumer.Main.executor": "Run",
-    "Application.exercise2.Main.executor": "Run",
-    "Application.exercise3.Main.executor": "Run",
-    "Application.exercise4.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/Sergio2024-25/PSP/Unit2-Thread/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.example5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.example6_producerConsumer.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercise2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercise3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercise4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Sergio2024-25/PSP/Unit2-Thread/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.example6_producerConsumer.Main">
     <configuration name="example5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example5_graphicStarvation.example5" />
