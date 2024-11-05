@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Cook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
     "Application.exercise3.Main.executor": "Run",
     "Application.exercise4.Main.executor": "Run",
     "Application.exercise6_warehouseTable.Main.executor": "Run",
+    "Application.exercise7_soupRestaurant.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -57,26 +56,13 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exercise6_warehouseTable.Main">
+  <component name="RunManager" selected="Application.exercise7_soupRestaurant.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise5_parking.Main" />
       <module name="Unit2-Thread" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercise5_parking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="example5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example5_graphicStarvation.example5" />
-      <module name="Unit2-Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example5_graphicStarvation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercise7_soupRestaurant.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise7_soupRestaurant.Main" />
+      <module name="Unit2-Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise7_soupRestaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercise7_soupRestaurant.Main" />
         <item itemvalue="Application.exercise6_warehouseTable.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.example6_producerConsumer.Main" />
         <item itemvalue="Application.exercise4.Main" />
-        <item itemvalue="Application.example5" />
       </list>
     </recent_temporary>
   </component>

@@ -26,6 +26,7 @@ public class Restaurant {
         numberClientsServed++;
 
         if(numberClientsServed == MAX_BOWLS_AVAILABLE){
+            System.out.println(nombreCliente + " leaves and is the last client");
             notifyAll();
         }
     }
