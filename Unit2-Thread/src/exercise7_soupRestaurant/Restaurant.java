@@ -2,23 +2,42 @@ package exercise7_soupRestaurant;
 
 public class Restaurant {
 
-    private int cuencosDisponibles;
-    private int numeroClientesAtendidos;
+    private int MAX_BOWLS_AVAILABLE;
+    private int emptySeats;
+    private int numberClientsServed;
 
-    public Restaurant(int cuencosDisponibles) {
-        this.cuencosDisponibles = cuencosDisponibles;
-        this.numeroClientesAtendidos = 0;
+    public Restaurant(int bowlsAvailable) {
+        this.MAX_BOWLS_AVAILABLE = bowlsAvailable;
+        this.emptySeats = bowlsAvailable;
+        this.numberClientsServed = 0;
     }
 
-    public void clienteCogeCuencoSopa(String nombreCliente){
-
+    public synchronized void clientEnters(String nombreCliente) throws InterruptedException {
+        while(emptySeats <= 0){
+            System.out.println(nombreCliente + " waiting");
+            wait();
+        }
+        emptySeats--;
+        System.out.println(nombreCliente + " seats. Remaining: "+emptySeats);
     }
 
-    public void clienteTerminaCuencoSopa(String nombreCliente){
+    public synchronized void clientLeaves(String nombreCliente){
+        System.out.println(nombreCliente + " has finish and leaves");
+        numberClientsServed++;
 
+        if(numberClientsServed == MAX_BOWLS_AVAILABLE){
+            notifyAll();
+        }
     }
 
-    public void cocineroRellenaSopa(){
-
+    public synchronized void cocineroRellenaSopa() throws InterruptedException {
+        while(numberClientsServed < MAX_BOWLS_AVAILABLE){
+            System.out.println("Cook takes a break");
+            wait();
+        }
+        System.out.println("Cook is cooking");
+        emptySeats = MAX_BOWLS_AVAILABLE;
+        numberClientsServed = 0;
+        notifyAll();
     }
 }

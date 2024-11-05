@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="" />
+    <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Cook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise7_soupRestaurant/Restaurant.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +29,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2nT9Njt89iEJKQ2eDFUuMXAh12B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

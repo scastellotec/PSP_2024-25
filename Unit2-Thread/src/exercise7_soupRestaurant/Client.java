@@ -14,9 +14,9 @@ public class Client implements Runnable{
     @Override
     public void run() {
         try {
-            restaurante.clienteCogeCuencoSopa(nombreCliente);
+            restaurante.clientEnters(nombreCliente);
             Thread.sleep(1500);
-            restaurante.clienteTerminaCuencoSopa(nombreCliente);
+            restaurante.clientLeaves(nombreCliente);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

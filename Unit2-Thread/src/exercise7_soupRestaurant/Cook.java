@@ -11,7 +11,11 @@ public class Cook implements Runnable{
     @Override
     public void run() {
         while(true){
-            restaurante.cocineroRellenaSopa();
+            try {
+                restaurante.cocineroRellenaSopa();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }
