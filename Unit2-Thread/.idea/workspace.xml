@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercise8_abc/AbcBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise8_abc/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise8_abc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise8_abc/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise9_printer/Letters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise9_printer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise9_printer/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise9_printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise10_bridgeCar/Bridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise10_bridgeCar/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise10_bridgeCar/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise11_philosophers/Chopstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise11_philosophers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise11_philosophers/Philosopher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +44,7 @@
     "Application.Main.executor": "Run",
     "Application.example5.executor": "Run",
     "Application.example6_producerConsumer.Main.executor": "Run",
+    "Application.exercise11_philosophers.Main.executor": "Run",
     "Application.exercise2.Main.executor": "Run",
     "Application.exercise3.Main.executor": "Run",
     "Application.exercise4.Main.executor": "Run",
@@ -65,13 +64,13 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exercise9_printer.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise5_parking.Main" />
+  <component name="RunManager" selected="Application.exercise11_philosophers.Main">
+    <configuration name="exercise11_philosophers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise11_philosophers.Main" />
       <module name="Unit2-Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise5_parking.*" />
+          <option name="PATTERN" value="exercise11_philosophers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercise11_philosophers.Main" />
         <item itemvalue="Application.exercise9_printer.Main" />
         <item itemvalue="Application.exercise8_abc.Main" />
         <item itemvalue="Application.exercise7_soupRestaurant.Main" />
         <item itemvalue="Application.exercise6_warehouseTable.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
