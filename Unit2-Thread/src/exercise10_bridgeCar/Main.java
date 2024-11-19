@@ -19,7 +19,7 @@ public class Main {
             } else {
                 new Thread(new Car(puente, i, false)).start();
             }
-            Thread.sleep(500);
+            Thread.sleep(100);
         }
 
     }

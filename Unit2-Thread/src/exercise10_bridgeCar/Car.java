@@ -21,6 +21,7 @@ public class Car implements Runnable{
             } else {
                 puente.entraCocheSur(nombre);
             }
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
