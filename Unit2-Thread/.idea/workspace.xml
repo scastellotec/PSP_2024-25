@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercise12_blockingqueue/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_blockingqueue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_blockingqueue/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_collection/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_collection/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_collection/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_collection/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_primitive/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_primitive/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_primitive/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise12_primitive/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unit3-Parallel/src/example1/InterfaceCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unit3-Parallel/src/example1/PredicatImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unit3-Parallel/src/example1/StarswithConditionIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unit3-Parallel/src/example1/main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Unit3-Parallel/src/example1/mainOldSchool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_blockingqueue/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_blockingqueue/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_collection/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_collection/Buffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_collection/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_collection/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_collection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_collection/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_collection/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_collection/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_primitive/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_primitive/Buffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_primitive/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_primitive/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise12_primitive/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_primitive/Producer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +48,8 @@
     "Application.example5.executor": "Run",
     "Application.example6_producerConsumer.Main.executor": "Run",
     "Application.exercise11_philosophers.Main.executor": "Run",
+    "Application.exercise12_collection.Main.executor": "Run",
+    "Application.exercise12_primitive.Main.executor": "Run",
     "Application.exercise2.Main.executor": "Run",
     "Application.exercise3.Main.executor": "Run",
     "Application.exercise4.Main.executor": "Run",
@@ -84,7 +79,7 @@
       <recent name="D:\Sergio2024-25\PSP\Unit2-Thread\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exercise90_blockinqueque.Main">
+  <component name="RunManager" selected="Application.exercise12_collection.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise10_bridgeCar.Main" />
       <module name="Unit2-Thread" />
@@ -111,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise8_abc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise8_abc.Main" />
+    <configuration name="exercise12_collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise12_collection.Main" />
       <module name="Unit2-Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise8_abc.*" />
+          <option name="PATTERN" value="exercise12_collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercise12_primitive.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise12_primitive.Main" />
+      <module name="Unit2-Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise12_primitive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise9_printer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise9_printer.Main" />
-      <module name="Unit2-Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise9_printer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercise12_collection.Main" />
+        <item itemvalue="Application.exercise12_primitive.Main" />
         <item itemvalue="Application.exercise90_blockinqueque.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.exercise11_philosophers.Main" />
-        <item itemvalue="Application.exercise9_printer.Main" />
-        <item itemvalue="Application.exercise8_abc.Main" />
       </list>
     </recent_temporary>
   </component>

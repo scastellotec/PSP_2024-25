@@ -11,9 +11,9 @@ public class Producer implements Runnable{
     @Override
     public void run() {
         for (int i=0; i<100; i++){
-            buffer.putData(i);
             try {
-                Thread.sleep(1000);
+                buffer.putData(i);
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
