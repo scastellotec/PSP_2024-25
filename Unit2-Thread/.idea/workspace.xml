@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_blockingqueue/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_blockingqueue/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_collection/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_collection/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_collection/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_collection/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_collection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_collection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_collection/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_collection/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_primitive/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_primitive/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_primitive/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_primitive/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise12_primitive/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise12_primitive/Producer.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec26e8f3-acbd-436e-b75c-f2694293917a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +52,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Sergio2024-25/PSP/Unit2-Thread/src/exercise12_primitive",
+    "last_opened_file_path": "C:/Users/Profesor/Downloads/PSP_examen1t-20241210T095337Z-001",
     "onboarding.tips.debug.path": "D:/Sergio2024-25/PSP/Unit2-Thread/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
