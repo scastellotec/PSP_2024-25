@@ -12,6 +12,14 @@ public class main1 {
         PredicatImpl predicateJ = new PredicatImpl();
         filter(languages, predicateJ);
 
+
+        filter(languages, (o)->{
+            String name = o.toString();
+                if(name.startsWith("J"))
+                    return true;
+                return false;
+        });
+
     }
 
     public static void filter(List<String> names, Predicate condition) {

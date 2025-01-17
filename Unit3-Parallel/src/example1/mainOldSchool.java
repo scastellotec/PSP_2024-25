@@ -25,7 +25,7 @@ public class mainOldSchool {
 
     public static void filter(List<String> list, InterfaceCondition condition) {
         for (String a: list){
-            if(condition.evaluate(a))
+            if(condition.evaluate(a, "J"))
                 System.out.println(a);
         }
     }
