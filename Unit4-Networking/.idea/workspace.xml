@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b699e9-7c2f-4148-85ae-caee551fa2b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit4-Networking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example0/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example0/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threaded_example/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threaded_example/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threaded_example/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threaded_example/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threaded_example/ServerThreaded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2rvuDolCIeZ19Zp0Q6wNuNmzoYh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,7 +38,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.Client2.executor": "Run",
     "Application.Server.executor": "Run",
+    "Application.ServerThreaded.executor": "Run",
+    "Application.threaded_example.Client.executor": "Run",
+    "Application.threaded_example.Server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -46,7 +50,12 @@
     "last_opened_file_path": "D:/Sergio2024-25/PSP/Unit4-Networking"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="threaded_example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client2">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example0.Client" />
       <module name="Unit4-Networking" />
@@ -60,12 +69,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example0.Server" />
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server_noThreaded.Client2" />
       <module name="Unit4-Networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example0.*" />
+          <option name="PATTERN" value="Server_Threaded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server_noThreaded.Server" />
+      <module name="Unit4-Networking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server_Threaded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerThreaded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server_Threaded.ServerThreaded" />
+      <module name="Unit4-Networking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server_Threaded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server_noThreaded.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server_noThreaded.Client" />
+      <module name="Unit4-Networking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server_Threaded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Server_noThreaded.Client" />
+        <item itemvalue="Application.ServerThreaded" />
+        <item itemvalue="Application.threaded_example.Server" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
