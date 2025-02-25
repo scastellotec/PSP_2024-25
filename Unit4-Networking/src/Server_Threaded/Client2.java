@@ -32,10 +32,14 @@ public class Client2 {
             //3. Show reponse from the server
             System.out.println(input.readLine());
 
+            Thread.sleep(10000);
+
             // Close connection
             socket.close();
 
         } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 

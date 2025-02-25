@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b699e9-7c2f-4148-85ae-caee551fa2b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threaded_example/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threaded_example/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threaded_example/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threaded_example/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threaded_example/ServerThreaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSPTelegramBot1/src/main/java/org/example/TelegramBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TelegramBot1/src/main/java/com/psp/TelegramBot1/TelegramBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyChat/Clients/Client1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyChat/Clients/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyChat/Clients/Client3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyChat/Server/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyChat/Server/MainServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReviewTCP/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReviewTCP/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReviewTCPThreaded/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReviewTCPThreaded/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReviewTCPThreaded/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReviewTCPThreaded/ServerClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udpExample/ClientUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udpExample/ServerUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udp_multicast/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udp_multicast/Cliente2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udp_multicast/Cliente3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/udp_multicast/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server_Threaded/Client2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server_Threaded/Client2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server_Threaded/ServerThreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server_Threaded/ServerThreaded.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +47,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2rvuDolCIeZ19Zp0Q6wNuNmzoYh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,30 +57,51 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.Client1.executor": "Run",
     "Application.Client2.executor": "Run",
+    "Application.Client3.executor": "Run",
+    "Application.ClientUDP.executor": "Run",
+    "Application.Cliente.executor": "Run",
+    "Application.Cliente2.executor": "Run",
+    "Application.Cliente3.executor": "Run",
+    "Application.MainServer.executor": "Run",
+    "Application.MyChat.Client2.executor": "Run",
+    "Application.ReviewTCP.Server.executor": "Run",
     "Application.Server.executor": "Run",
     "Application.ServerThreaded.executor": "Run",
+    "Application.ServerUDP.executor": "Run",
+    "Application.Server_noThreaded.Server.executor": "Run",
     "Application.threaded_example.Client.executor": "Run",
     "Application.threaded_example.Server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Sergio2024-25/PSP/Unit4-Networking"
+    "last_opened_file_path": "D:/Sergio2024-25/PSP/Unit4-Networking/src/ReviewTCPThreaded",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="MyChat" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sergio2024-25\PSP\Unit4-Networking\src\ReviewTCPThreaded" />
+      <recent name="D:\Sergio2024-25\PSP\Unit4-Networking\src\Server_Threaded" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ReviewTCPThreaded" />
+      <recent name="MyChat" />
       <recent name="threaded_example" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Client2">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example0.Client" />
+      <option name="MAIN_CLASS_NAME" value="ReviewTCP.Client" />
       <module name="Unit4-Networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example0.*" />
+          <option name="PATTERN" value="ReviewTCP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,11 +110,37 @@
       </method>
     </configuration>
     <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server_noThreaded.Client2" />
+      <option name="MAIN_CLASS_NAME" value="ReviewTCPThreaded.Client2" />
       <module name="Unit4-Networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Server_Threaded.*" />
+          <option name="PATTERN" value="ReviewTCPThreaded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewTCPThreaded.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReviewTCPThreaded.Client" />
+      <module name="Unit4-Networking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReviewTCPThreaded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewTCP.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReviewTCP.Server" />
+      <module name="Unit4-Networking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReviewTCP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,37 +149,11 @@
       </method>
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server_noThreaded.Server" />
+      <option name="MAIN_CLASS_NAME" value="ReviewTCPThreaded.Server" />
       <module name="Unit4-Networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Server_Threaded.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerThreaded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server_Threaded.ServerThreaded" />
-      <module name="Unit4-Networking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Server_Threaded.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server_noThreaded.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server_noThreaded.Client" />
-      <module name="Unit4-Networking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Server_Threaded.*" />
+          <option name="PATTERN" value="ReviewTCPThreaded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReviewTCPThreaded.Client" />
         <item itemvalue="Application.Client2" />
-        <item itemvalue="Application.Server_noThreaded.Client" />
-        <item itemvalue="Application.ServerThreaded" />
-        <item itemvalue="Application.threaded_example.Server" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ReviewTCP.Server" />
       </list>
     </recent_temporary>
   </component>
