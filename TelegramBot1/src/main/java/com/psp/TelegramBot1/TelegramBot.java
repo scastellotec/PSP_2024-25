@@ -10,7 +10,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     private final String botUsername;
 
     public TelegramBot() {
-        super("7023693566:AAHVhhKatdRSkDXqCw6GDNU9bqJUyDXRSvY");
+        super("");
         this.botUsername = "PspTelegramBot";
     }
 
